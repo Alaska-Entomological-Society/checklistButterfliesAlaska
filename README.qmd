@@ -1,0 +1,15 @@
+---
+title: "Checklist of the Butterflies of Alaska"
+format: gfm
+bibliography: "bibliography.bib"
+link-citations: true
+---
+
+This repository is for maintaining a checklist of the butterflies of Alaska in Darwin Core format. These data are intended to provide a taxonomic framework for a potential update to the *Butterflies of Alaska* [@PhilipFerris2015; @PhilipFerris2016]
+
+The `archive/taxon.csv` table follows the format of the [Darwin Core Taxon](https://rs.gbif.org/core/dwc_taxon_2025-07-10.xml) extension.
+
+## References
+
+::: {#refs}
+:::
