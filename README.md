@@ -6,9 +6,8 @@ Alaska in Darwin Core format based on the *Butterflies of Alaska*
 ([Philip and Ferris 2026](#ref-PhilipFerris2026)).
 
 The structure of the checklist follows guidance of GBIF
-([2017](#ref-GBIF2017)). The
-[archive/checklist.csv](blob/main/archive/taxon.csv) table currently
-includes information from the Darwin Core
+([2017](#ref-GBIF2017)). The [archive/checklist.csv](archive/taxon.csv)
+table currently includes information from the Darwin Core
 
 - taxon (<https://rs.gbif.org/core/dwc_taxon_2025-07-10.xml>),
 - species distribution
