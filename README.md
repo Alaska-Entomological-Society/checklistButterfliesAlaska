@@ -7,8 +7,8 @@ Alaska in Darwin Core format based on the *Butterflies of Alaska*
 
 The structure of the checklist follows guidance of GBIF
 ([2017](#ref-GBIF2017)). The
-[archive/checklist.csv](archive/checklist.csv) table currently includes
-information from the Darwin Core
+[`archive/checklist.csv`](archive/checklist.csv) table currently
+includes information from the Darwin Core
 
 - taxon (<https://rs.gbif.org/core/dwc_taxon_2025-07-10.xml>),
 - species distribution
@@ -17,8 +17,10 @@ information from the Darwin Core
 - vernacular names
   (<https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml>)
 
-extensions. Terms and controlled vocabularies follow Darwin Core
-Maintenance Group ([2026](#ref-DarwinCoreMaintenanceGroup2026)).
+extensions. Terms and controlled vocabularies generally follow Darwin
+Core Maintenance Group ([2026](#ref-DarwinCoreMaintenanceGroup2026)).
+The vocabulary of `establishmentMeans` and `degreeOfEstablishment`
+follows Groom et al. ([2019](#ref-Groometal2019)).
 
 ## References
 
@@ -37,6 +39,15 @@ Biodiversity Information Standards (TDWG).
 GBIF. 2017. *Best Practices in Publishing Species Checklists, Version
 2.1*. GBIF Secretariat.
 <https://ipt.gbif.org/manual/en/ipt/3.0/best-practices-checklists>.
+
+</div>
+
+<div id="ref-Groometal2019" class="csl-entry">
+
+Groom, Quentin, Peter Desmet, Lien Reyserhove, et al. 2019. “Improving
+Darwin Core for Research and Management of Alien Species.” *Biodiversity
+Information Science and Standards* 3 (October): e38084.
+<https://doi.org/10.3897/biss.3.38084>.
 
 </div>
 
