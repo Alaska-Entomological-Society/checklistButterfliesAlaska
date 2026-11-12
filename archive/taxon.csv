@@ -1,4 +1,4 @@
-﻿taxonID,scientificName,scientificNameAuthorship,vernacularName,kingdom,taxonRank,nomenclaturalCode,parentNameUsageID,taxonomicStatus,acceptedNameID,establishmentMeans
+﻿taxonID,scientificName,scientificNameAuthorship,vernacularName,kingdom,taxonRank,nomenclaturalCode,parentNameUsageID,taxonomicStatus,establishmentMeans,degreeOfEstablishment
 1894779,Aglais,"Dalman, 1816",,Animalia,genus,ICZN,7017,accepted,,
 1894896,Aglais milberti,"(Godart, 1819)",Milbert's tortoiseshell,Animalia,species,ICZN,1894779,accepted,,
 1926044,Agriades,"Hübner, 1819",,Animalia,genus,ICZN,5473,accepted,,
@@ -25,7 +25,8 @@
 ,Callophrys,,,Animalia,genus,ICZN,,accepted,,
 ,Callophrys augustinus,,,Animalia,species,ICZN,,accepted,,
 ,Callophrys polios,,,Animalia,species,ICZN,,accepted,,
-,Carterocephalus skada,,,Animalia,species,ICZN,,accepted,,
+,Carterocephalus,,,Animalia,genus,ICZN,,accepted,native,native
+,"Carterocephalus skada (Edwards, 1870)",,,Animalia,species,ICZN,,accepted,native,native
 ,Celastrina,,,Animalia,genus,ICZN,,accepted,,
 ,Celastrina lucia,,,Animalia,species,ICZN,,accepted,,
 ,Coenonympha,,,Animalia,genus,ICZN,,accepted,,
@@ -53,8 +54,8 @@
 ,Erebia pawloskii,,,Animalia,species,ICZN,,accepted,,
 ,Erebia rossii,,,Animalia,species,ICZN,,accepted,,
 ,Erebia youngi,,,Animalia,species,ICZN,,accepted,,
-,Erynnis,,,Animalia,genus,ICZN,,accepted,,
-,Erynnis persius,,,Animalia,species,ICZN,,accepted,,
+,Erynnis,,,Animalia,genus,ICZN,,accepted,native,native
+,Erynnis persius,,,Animalia,species,ICZN,,accepted,native,native
 ,Euchloe,,,Animalia,genus,ICZN,,accepted,,
 ,Euchloe ausonides,,,Animalia,species,ICZN,,accepted,,
 ,Euchloe creusa,,,Animalia,species,ICZN,,accepted,,
@@ -63,8 +64,9 @@
 ,Euphydryas anicia,,,Animalia,species,ICZN,,accepted,,
 ,Glaucopsyche,,,Animalia,genus,ICZN,,accepted,,
 ,Glaucopsyche lygdamus,,,Animalia,species,ICZN,,accepted,,
-,Hesperia,,,Animalia,genus,ICZN,,accepted,,
-,Hesperia comma,,,Animalia,species,ICZN,,accepted,,
+,Hesperia,,,Animalia,genus,ICZN,,accepted,native,native
+,Hesperia comma,,,Animalia,species,ICZN,,accepted,native,native
+,Hesperiidae,,,Animalia,family,ICZN,,accepted,native,native
 ,Icaricia,,,Animalia,genus,ICZN,,accepted,,
 ,Icaricia saepiolus,,,Animalia,species,ICZN,,accepted,,
 797,Lepidoptera,,brush-footed butterflies,Animalia,order,ICZN,,accepted,,
@@ -111,8 +113,8 @@
 ,Polygonia satyrus,,,Animalia,species,ICZN,,accepted,,
 ,Pontia,,,Animalia,genus,ICZN,,accepted,,
 ,Pontia occidentalis,,,Animalia,species,ICZN,,accepted,,
-,Pyrgus,,,Animalia,genus,ICZN,,accepted,,
-,Pyrgus centaureae,,,Animalia,species,ICZN,,accepted,,
+,Pyrgus,,,Animalia,genus,ICZN,,accepted,native,native
+,Pyrgus centaureae,,,Animalia,species,ICZN,,accepted,native,native
 ,Tharsalea,,,Animalia,genus,ICZN,,accepted,,
 ,Tharsalea dorcas,,,Animalia,species,ICZN,,accepted,,
 ,Tharsalea mariposa,,,Animalia,species,ICZN,,accepted,,
