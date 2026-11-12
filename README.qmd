@@ -2,8 +2,11 @@
 title: "Checklist of the Butterflies of Alaska"
 format: gfm
 bibliography: "bibliography.bib"
+csl: pensoft-journals.csl
 link-citations: true
 ---
+
+## About the Checklist
 
 This repository is for maintaining a checklist of the butterflies of Alaska in Darwin Core format based on the *Butterflies of Alaska* [@PhilipFerris2026].
 
@@ -14,6 +17,10 @@ The structure of the checklist follows guidance of @GBIF2017. The [`archive/chec
 - vernacular names (<https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml>)
 
 extensions. Terms and controlled vocabularies generally follow @DarwinCoreMaintenanceGroup2026. The vocabulary of `establishmentMeans` and `degreeOfEstablishment` follows  @Groometal2019. 
+
+## Notes
+
+In addition to the single Alaskan record of *Boloria epithore* (Western Meadow Fritillary) cited by @PhilipFerris2026, a second Alaskan record has been documented [@iNaturalist2026occurrence5206387618]^[<https://gbif.org/occurrence/5206387618>], so we considered its `occurrenceStatus` to be `presence` and its `establishmentMeans` to be `native`.
 
 ## References
 
