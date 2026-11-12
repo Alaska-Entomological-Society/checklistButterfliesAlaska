@@ -7,7 +7,7 @@ link-citations: true
 
 This repository is for maintaining a checklist of the butterflies of Alaska in Darwin Core format based on the *Butterflies of Alaska* [@PhilipFerris2026].
 
-The structure of the checklist follows guidance of @GBIF2017. The [archive/checklist.csv](archive/taxon.csv) table currently includes information from the Darwin Core
+The structure of the checklist follows guidance of @GBIF2017. The [archive/checklist.csv](archive/checklist.csv) table currently includes information from the Darwin Core
 
 - taxon (<https://rs.gbif.org/core/dwc_taxon_2025-07-10.xml>),
 - species distribution (<https://rs.gbif.org/extension/gbif/1.0/distribution_2022-02-02.xml>), and
