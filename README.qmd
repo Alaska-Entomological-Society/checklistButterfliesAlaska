@@ -18,7 +18,8 @@ The [`archive/checklist.csv`](archive/checklist.csv) table currently includes in
 - vernacular names (<https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml>)
 
 extensions. Terms and controlled vocabularies generally follow @DarwinCoreMaintenanceGroup2026. 
-The vocabulary of `establishmentMeans` and `degreeOfEstablishment` follows  @Groometal2019. 
+The vocabulary of `occurrenceStatus` are available from <https://rs.gbif.org/vocabulary/gbif/distribution_status_2020-07-15.xml>.
+The vocabulary of `establishmentMeans` and `degreeOfEstablishment` follows  @Groometal2019.
 
 ## Notes
 

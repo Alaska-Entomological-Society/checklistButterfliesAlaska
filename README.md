@@ -21,6 +21,8 @@ includes information from the Darwin Core
 
 extensions. Terms and controlled vocabularies generally follow Darwin
 Core Maintenance Group ([2026](#ref-DarwinCoreMaintenanceGroup2026)).
+The vocabulary of `occurrenceStatus` are available from
+<https://rs.gbif.org/vocabulary/gbif/distribution_status_2020-07-15.xml>.
 The vocabulary of `establishmentMeans` and `degreeOfEstablishment`
 follows Groom et al. ([2019](#ref-Groometal2019)).
 
