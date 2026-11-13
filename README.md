@@ -31,7 +31,7 @@ Meadow Fritillary) cited by Philip and Ferris
 ([2026](#ref-PhilipFerris2026)), a second Alaskan record has been
 documented ([<span class="nocase">iNaturalist contributors and
 iNaturalist</span> 2026](#ref-iNaturalist2026occurrence5206387618))[^1],
-so we considered its `occurrenceStatus` to be `presence` and its
+so we considered its `occurrenceStatus` to be `present` and its
 `establishmentMeans` to be `native`.
 
 ## References
