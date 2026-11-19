@@ -21,10 +21,6 @@ with intent to be able to split the data into those tables. Terms and controlled
 The vocabulary of `occurrenceStatus` are available from <https://rs.gbif.org/vocabulary/gbif/distribution_status_2020-07-15.xml>.
 The vocabulary of `establishmentMeans` and `degreeOfEstablishment` follows  @Groometal2019.
 
-## Notes
-
-In addition to the single Alaskan record of *Boloria epithore* (Western Meadow Fritillary) cited by @PhilipFerris2026, a second Alaskan record has been documented [@iNaturalist2026occurrence5206387618]^[<https://gbif.org/occurrence/5206387618>], so we considered its `occurrenceStatus` to be `rare` and its `establishmentMeans` to be `native`.
-
 ## References
 
 ::: {#refs}

@@ -27,16 +27,6 @@ controlled vocabularies generally follow Darwin Core Maintenance Group
 The vocabulary of `establishmentMeans` and `degreeOfEstablishment`
 follows Groom et al. ([2019](#ref-Groometal2019)).
 
-## Notes
-
-In addition to the single Alaskan record of *Boloria epithore* (Western
-Meadow Fritillary) cited by Philip and Ferris
-([2026](#ref-PhilipFerris2026)), a second Alaskan record has been
-documented ([<span class="nocase">iNaturalist contributors and
-iNaturalist</span> 2026](#ref-iNaturalist2026occurrence5206387618))[^1],
-so we considered its `occurrenceStatus` to be `rare` and its
-`establishmentMeans` to be `native`.
-
 ## References
 
 <div id="refs" class="references csl-bib-body hanging-indent"
@@ -69,14 +59,6 @@ Standards 3: e38084. <https://doi.org/10.3897/biss.3.38084>
 
 </div>
 
-<div id="ref-iNaturalist2026occurrence5206387618" class="csl-entry">
-
-<span class="nocase">iNaturalist contributors, iNaturalist</span> (2026)
-<span class="nocase">iNaturalist</span> research-grade observations.
-<https://doi.org/10.15468/ab3s5x>
-
-</div>
-
 <div id="ref-PhilipFerris2026" class="csl-entry">
 
 Philip KW, Ferris CD (2026) Butterflies of Alaska. Revised Second
@@ -88,5 +70,3 @@ from:
 </div>
 
 </div>
-
-[^1]: <https://gbif.org/occurrence/5206387618>
