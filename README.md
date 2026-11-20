@@ -8,21 +8,19 @@ Alaska in Darwin Core format based on the *Butterflies of Alaska*
 ([Philip and Ferris 2026](#ref-PhilipFerris2026)).
 
 The structure of the checklist follows guidance of GBIF
-([2017](#ref-GBIF2017)). The
-[`archive/checklist.csv`](archive/checklist.csv) table currently
-includes information from the Darwin Core extensions
+([2017](#ref-GBIF2017)). The [`archive/taxon.csv`](archive/taxon.csv),
+[`archive/speciesDistribution.csv`](archive/speciesDistribution.csv),
+and [`archive/vernacularName.csv`](archive/vernacularName.csv) tables
+correspond to the Darwin Core extensions taxon
+(<https://rs.gbif.org/core/dwc_taxon_2025-07-10.xml>), species
+distribution
+(<https://rs.gbif.org/extension/gbif/1.0/distribution_2022-02-02.xml>),
+and vernacular names
+(<https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml>).
 
-- taxon (<https://rs.gbif.org/core/dwc_taxon_2025-07-10.xml>),
-- species distribution
-  (<https://rs.gbif.org/extension/gbif/1.0/distribution_2022-02-02.xml>),
-  and
-- vernacular names
-  (<https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml>),
-
-with intent to be able to split the data into those tables. Terms and
-controlled vocabularies generally follow Darwin Core Maintenance Group
-([2026](#ref-DarwinCoreMaintenanceGroup2026)). The vocabulary of
-`occurrenceStatus` are available from
+Terms and controlled vocabularies generally follow Darwin Core
+Maintenance Group ([2026](#ref-DarwinCoreMaintenanceGroup2026)). The
+vocabulary of `occurrenceStatus` are available from
 <https://rs.gbif.org/vocabulary/gbif/distribution_status_2020-07-15.xml>.
 The vocabulary of `establishmentMeans` and `degreeOfEstablishment`
 follows Groom et al. ([2019](#ref-Groometal2019)).
