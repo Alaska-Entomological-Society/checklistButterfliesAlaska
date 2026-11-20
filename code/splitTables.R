@@ -2,6 +2,24 @@
 # by Matt Bowser
 # November 19-20, 2026
 
+# Function to write out csv files in same format as MS Excel.
+write.csv.xl <- function(x, con){
+con <- file(con, 
+            open="wb", 
+            encoding="UTF-8")
+write.table(
+  x, 
+  file=con,
+  quote=TRUE,
+  sep = ",",
+  na = "",
+  row.names=FALSE,
+  fileEncoding="UTF-8",
+  eol="\n"
+)
+close.connection(con)
+}
+
 # Load checklist data.
 cl <- read.csv("../archive/checklist.csv", stringsAsFactors = FALSE)
 
@@ -50,3 +68,9 @@ vn <- merge(x = vn1, y = vn[,which(!names(vn) %in% "vernacularName")], all.x = T
 tx$rightsHolder <- "Alaska Entomological Society"
 tx$license <- "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
 names(tx)[which(names(tx) == "source")] <- "references"
+
+# Write out.
+write.csv.xl(tx, "../archive/taxon.csv")
+write.csv.xl(sd, "../archive/speciesDistribution.csv")
+write.csv.xl(vn, "../archive/vernacularName.csv")
+
