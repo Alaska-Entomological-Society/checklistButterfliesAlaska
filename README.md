@@ -11,19 +11,15 @@ dataset ([Philip et al.
 2026](#ref-Philipetal2026checklistButterfliesAlaska)).
 
 The structure of the checklist follows guidance of GBIF
-([2017](#ref-GBIF2017)). The [`archive/taxon.csv`](archive/taxon.csv),
-[`archive/speciesDistribution.csv`](archive/speciesDistribution.csv),
-and [`archive/vernacularName.csv`](archive/vernacularName.csv) tables
-correspond to the Darwin Core extensions taxon
-(<https://rs.gbif.org/core/dwc_taxon_2025-07-10.xml>), species
-distribution
-(<https://rs.gbif.org/extension/gbif/1.0/distribution_2022-02-02.xml>),
-and vernacular names
-(<https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml>).
+([2017](#ref-GBIF2017)). The [`taxon.csv`](archive/taxon.csv),
+[`speciesDistribution.csv`](archive/speciesDistribution.csv), and
+[`vernacularName.csv`](archive/vernacularName.csv) tables correspond to
+the Darwin Core extensions taxon[^1], species distribution[^2], and
+vernacular names[^3].
 
 Terms and controlled vocabularies generally follow Darwin Core
 Maintenance Group ([2026](#ref-DarwinCoreMaintenanceGroup2026)). The
-vocabulary of `occurrenceStatus` are available from
+vocabulary of `occurrenceStatus` is available from
 <https://rs.gbif.org/vocabulary/gbif/distribution_status_2020-07-15.xml>.
 The vocabulary of `establishmentMeans` and `degreeOfEstablishment`
 follows Groom et al. ([2019](#ref-Groometal2019)).
@@ -80,3 +76,9 @@ Checklist of the butterflies of Alaska.
 </div>
 
 </div>
+
+[^1]: <https://rs.gbif.org/core/dwc_taxon_2025-07-10.xml>
+
+[^2]: <https://rs.gbif.org/extension/gbif/1.0/distribution_2022-02-02.xml>
+
+[^3]: <https://rs.gbif.org/extension/gbif/1.0/vernacularname.xml>
