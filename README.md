@@ -5,7 +5,10 @@
 
 This repository is for maintaining a checklist of the butterflies of
 Alaska in Darwin Core format based on the *Butterflies of Alaska*
-([Philip and Ferris 2026](#ref-PhilipFerris2026)).
+([Philip and Ferris 2026](#ref-PhilipFerris2026)). The dataset is also
+available as a Global Biodiversity Information Facility checklist
+dataset ([Philip et al.
+2026](#ref-Philipetal2026checklistButterfliesAlaska)).
 
 The structure of the checklist follows guidance of GBIF
 ([2017](#ref-GBIF2017)). The [`archive/taxon.csv`](archive/taxon.csv),
@@ -64,6 +67,15 @@ Edition. Alaska Entomological Society, Fairbanks, Alaska. Available
 from:
 <https://www.akentsoc.org/doc/AK_Butterfly_Guide_2026_revision.pdf>
 (November 12, 2026).
+
+</div>
+
+<div id="ref-Philipetal2026checklistButterfliesAlaska"
+class="csl-entry">
+
+Philip KW, Ferris CD, Rykken JJ, Breed GA, Sikes DS, Bowser ML (2026)
+Checklist of the butterflies of Alaska.
+<https://doi.org/10.15468/RQ4PQY>
 
 </div>
 
