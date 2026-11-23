@@ -48,11 +48,9 @@ coltx <- c("taxonID",
  "parentNameUsageID",
  "identificationQualifier",
  "scientificNameAuthorship",
- "canonicalName",
  "kingdom",
  "taxonRank",
- "taxonomicStatus",
- "source") 
+ "taxonomicStatus") 
 
 # Split tables.
 sd <- cl[,colsd]
@@ -74,7 +72,7 @@ vn <- merge(x = vn1, y = vn[,which(!names(vn) %in% "vernacularName")], all.x = T
 # Modify taxon table.
 tx$rightsHolder <- "Alaska Entomological Society"
 tx$license <- "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
-names(tx)[which(names(tx) == "source")] <- "references"
+tx$references <- "https://www.akentsoc.org/doc/AK_Butterfly_Guide_2026_revision.pdf"
 
 # Write out.
 write.csv.xl(tx, "../archive/taxon.csv")
