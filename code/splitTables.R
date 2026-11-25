@@ -49,13 +49,21 @@ coltx <- c("taxonID",
  "identificationQualifier",
  "scientificNameAuthorship",
  "kingdom",
+ "phylum",
+ "class",
+ "order",
+ "family",
+ "genus",
  "taxonRank",
  "taxonomicStatus") 
 
+# Select only species records.
+slsp <- cl$taxonRank %in% c("species", "species complex")
+
 # Split tables.
-sd <- cl[,colsd]
-vn <- cl[,colvn]
-tx <- cl[,coltx]
+sd <- cl[slsp, colsd]
+vn <- cl[slsp, colvn]
+tx <- cl[slsp, coltx]
 
 # Modify vernacular names table.
 vn <- vn[which(!vn$vernacularName == ""),]
@@ -73,6 +81,7 @@ vn <- merge(x = vn1, y = vn[,which(!names(vn) %in% "vernacularName")], all.x = T
 tx$rightsHolder <- "Alaska Entomological Society"
 tx$license <- "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
 tx$references <- "https://www.akentsoc.org/doc/AK_Butterfly_Guide_2026_revision.pdf"
+tx$parentNameUsageID <- ""
 
 # Write out.
 write.csv.xl(tx, "../archive/taxon.csv")
